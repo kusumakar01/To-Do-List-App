@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/To-Do-List-App/static/css/main.b82a45dd.css",
+    "main.js": "/To-Do-List-App/static/js/main.dd2e0aa0.js",
+    "static/media/brushed-alum-dark-1920x1080.png": "/To-Do-List-App/static/media/brushed-alum-dark-1920x1080.2d1312c17ed2d0c71237.png",
+    "index.html": "/To-Do-List-App/index.html",
+    "main.b82a45dd.css.map": "/To-Do-List-App/static/css/main.b82a45dd.css.map",
+    "main.dd2e0aa0.js.map": "/To-Do-List-App/static/js/main.dd2e0aa0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b82a45dd.css",
+    "static/js/main.dd2e0aa0.js"
+  ]
+}
