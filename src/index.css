@@ -1,0 +1,140 @@
+body {
+  margin: auto;
+  padding: 0 16px;
+  background-image: url(./images/brushed-alum-dark-1920x1080.png);
+  background-size: cover;
+  color: beige;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.25);
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.1rem;
+  font-weight: lighter;
+  color: rgb(185, 179, 218);
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.25);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: auto -16px;
+  text-align: center;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  font-size: 0.8rem;
+  color: rgb(185, 179, 218);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+  padding: 30px;
+  height: 65vh;
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 10px 0 rgba(255, 255, 255, 1);
+  border-radius: 2%;
+}
+
+.add-item {
+  width: 100%;
+  display: flex;
+  padding: 0 10px;
+  margin-bottom: auto;
+}
+
+.add-item input {
+  background: transparent;
+  width: 70%;
+  height: 1.2em;
+  border: none;
+  border-bottom: 2px solid beige;
+  color: beige;
+  left: 0;
+}
+
+.add-item input:focus {
+  outline: none;
+}
+
+button {
+  background: transparent;
+  border: 2px solid beige;
+  border-radius: 5px;
+  color: beige;
+  margin-left: auto;
+  transition: 0.3s;
+  width: 80px;
+}
+
+button:hover {
+  background: rgba(0, 0, 0, 0.2);
+  border: 2px solid;
+  color: plum;
+}
+
+.item-list {
+  margin: 20px auto;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  overflow: auto;
+}
+
+.item {
+  display: flex;
+  flex-direction: flex;
+  align-items: center;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.item input {
+  margin: auto 10px auto 0;
+  background: transparent;
+}
+
+.item .striked {
+  text-decoration: line-through;
+}
+
+.item span {
+  width: 75%;
+  font-family: cursive;
+  text-overflow: clip;
+}
+
+.item button {
+  border-radius: 5px;
+  width: 60px;
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 60vw;
+    height: 70vh;
+    padding: 20px;
+  }
+
+  button {
+    width: 65px;
+    font-size: 0.6rem;
+    padding: 0;
+  }
+
+  .item button {
+    border-radius: 5px;
+    width: 50px;
+    padding: 2px;
+  }
+
+  .item-list {
+    padding: 0;
+  }
+}
