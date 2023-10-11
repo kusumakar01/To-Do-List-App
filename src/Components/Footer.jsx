@@ -1,5 +1,5 @@
 function Footer() {
-  return <footer>© {new Date().getFullYear()} Tecore Labs</footer>;
+  return <footer>Developed by: Kusumakar Tanwar | ktanwar.cse@gmail.com</footer>;
 }
 
 export default Footer;
